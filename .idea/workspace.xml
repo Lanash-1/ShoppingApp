@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56e04bf8-3b8d-488e-917c-3cb8f383477c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utility/ProductData.kt" afterDir="false" />
+    <list default="true" id="56e04bf8-3b8d-488e-917c-3cb8f383477c" name="Changes" comment="Updated code files">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/controller/CartController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/controller/ProductsController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/enums/CartViewOptions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/enums/ProductsViewOption.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/interfaces/ProductDataServices.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/Cart.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utility/Helper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/view/CartView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/view/ProductsView.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/enums/Category.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/enums/Category.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/enums/HomePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/enums/HomePage.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Product.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/utility/ProductData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utility/ProductData.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/view/HomePageView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/view/HomePageView.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +26,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Data Class" />
-        <option value="Kotlin Enum" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -77,6 +85,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660730193379</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated code files">
+      <created>1660741310133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660741310133</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated code files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code files" />
   </component>
 </project>

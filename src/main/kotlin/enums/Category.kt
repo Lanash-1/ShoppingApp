@@ -4,5 +4,5 @@ enum class Category {
     ELECTRONICS,
     FASHION,
     TOYS,
-    GROCERY
+    GROCERY,
 }
