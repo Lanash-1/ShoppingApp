@@ -1,3 +1,3 @@
 package model
 
-data class Cart(var products: Map<Product, Int>)
+data class Cart(var products: ArrayList<Product>, var quantity: ArrayList<Int>)

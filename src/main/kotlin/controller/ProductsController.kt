@@ -8,6 +8,7 @@ class ProductsController {
 
     private val productData = ProductData()
 
+
     fun getAllProducts(): ArrayList<Product> {
         return productData.getAllProducts()
     }
@@ -15,4 +16,5 @@ class ProductsController {
     fun getProductsByCategory(category: Category): ArrayList<Product>{
         return productData.getProductsByCategory(category)
     }
+
 }

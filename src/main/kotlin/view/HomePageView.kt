@@ -1,9 +1,12 @@
 package view
 
+import controller.CartController
 import enums.HomePage
 import utility.Helper
 
 class HomePageView {
+
+    val cartController = CartController()
 
     fun homePage(){
         while(true) {
@@ -32,11 +35,13 @@ class HomePageView {
         return when(option){
             HomePage.VIEW_PRODUCTS -> {
                 val productsView = ProductsView()
-                productsView.showOptions()
+                productsView.showOptions(cartController)
                 false
             }
             HomePage.VIEW_CART -> {
                 println("Shopping cart")
+                val cartView = CartView()
+                cartView.showOptions(cartController)
                 false
             }
             HomePage.EXIT -> {
