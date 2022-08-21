@@ -1,6 +1,6 @@
 package enums
 
-enum class CartViewOptions {
+enum class CartOptions {
     CHECKOUT,
     CONTINUE_SHOPPING
 }

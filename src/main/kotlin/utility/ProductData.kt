@@ -37,7 +37,6 @@ class ProductData (
         getConnection()
     }
 
-
     override fun getAllProducts(): ArrayList<Product> {
         query = "select * from Product"
         st = conn?.createStatement()

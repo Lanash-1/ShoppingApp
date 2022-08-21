@@ -4,14 +4,12 @@ import interfaces.CartDataServices
 import model.Product
 import java.sql.Connection
 import java.sql.DriverManager
-import java.sql.ResultSet
 import java.sql.Statement
 import java.util.*
 
 class CartData(
     private var conn: Connection? = null,
     private var st: Statement? = null,
-    private var rs: ResultSet? = null,
     private var query: String? = null,
     private val username: String = "root",
     private val password: String = "password",
@@ -31,7 +29,6 @@ class CartData(
             ex.printStackTrace()
         }
     }
-
 
     init{
         getConnection()

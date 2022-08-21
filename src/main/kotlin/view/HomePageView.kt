@@ -6,7 +6,7 @@ import utility.Helper
 
 class HomePageView {
 
-    val cartController = CartController()
+    private var cartController = CartController()
 
     fun homePage(){
         while(true) {
@@ -18,7 +18,7 @@ class HomePageView {
                 option?.let {
                     if(helper.checkValidRecord(it, HomePage.values().size)){
                         val entry: HomePage = HomePage.values()[option-1]
-                        if(homePageOperation(entry)){
+                        if(homePageOperation(entry) || cartController.isPaid){
                             return
                         }
                     }else{

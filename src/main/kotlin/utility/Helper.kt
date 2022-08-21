@@ -6,6 +6,9 @@ class Helper{
         return size >= record && record != 0
     }
 
+    fun checkNotEmpty(input: String): Boolean {
+        return input != ""
+    }
 
 
 }

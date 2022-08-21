@@ -18,7 +18,6 @@ class ProductsView {
             print("\nEnter your choice: ")
             try{
                 val option = readLine()?.toInt()
-                val helper = Helper()
                 option?.let {
                     if(helper.checkValidRecord(option, ProductsViewOption.values().size)){
                         val entry: ProductsViewOption = ProductsViewOption.values()[option-1]
@@ -76,8 +75,9 @@ class ProductsView {
                 val selectedProduct = readLine()?.toInt()
                 selectedProduct?.let {
                     if (helper.checkValidRecord(selectedProduct, products.size)) {
-                        val quantity: Int? = getQuantity()
-                        cartController.addProductToCart(products[selectedProduct-1],quantity!!)
+                        val quantity: Int = getQuantity()
+                        cartController.addProductToCart(products[selectedProduct-1], quantity)
+
                         println("\nProduct Added to your cart\n")
                     }else{
                         println("Select from available options")
@@ -90,7 +90,8 @@ class ProductsView {
         }
     }
 
-    private fun getQuantity(): Int? {
+
+    private fun getQuantity(): Int {
         while(true){
             print("\nEnter quantity: ")
             try {
@@ -122,5 +123,4 @@ class ProductsView {
             println("${i+1}. ${products[i].category} - ${products[i].productName} - ${products[i].productPrice}")
         }
     }
-
 }
