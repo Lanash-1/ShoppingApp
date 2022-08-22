@@ -13,6 +13,7 @@ class CartView {
         while(cartController.getTotalBillAmount(cartController.products,cartController.quantity) != 0){
             viewCartItems(cartController)
             cartController.applyDiscountToProducts(cartController.products)
+            println("\nAfter applying discounts\n")
             viewCartItems(cartController)
             for(option: CartOptions in CartOptions.values()) println("${option.ordinal+1}. $option")
             print("\nEnter your choice: ")
