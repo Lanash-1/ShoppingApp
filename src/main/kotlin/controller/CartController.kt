@@ -13,7 +13,7 @@ class CartController: CartDataServices {
     var products = ArrayList<Product>()
     var quantity = ArrayList<Int>()
     var isPaid = false
-    val cartData = CartData()
+    private val cartData = CartData()
 
     override fun addProductToCart(product: Product, quantity: Int){
         products.add(product)
