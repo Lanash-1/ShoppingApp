@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56e04bf8-3b8d-488e-917c-3cb8f383477c" name="Changes" comment="Updated code files">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/discount/ElectronicsDiscount.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/discount/FashionDiscount.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/discount/GroceryDiscount.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/discount/ProductsDiscount.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/discount/ToysDiscount.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/enums/CardOptions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/enums/PaymentMethodOptions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/enums/PaymentOptions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/enums/UpiOptions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/interfaces/CardServices.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/interfaces/UpiServices.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/payment/CardTransaction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/payment/CreditCard.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/payment/DebitCard.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/payment/Gpay.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/payment/Paytm.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/payment/UpiTransaction.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/controller/CartController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controller/CartController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controller/PaymentController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controller/ProductsController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controller/ProductsController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/enums/CartViewOptions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/enums/CartOptions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/interfaces/CartDataServices.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/interfaces/CartDataServices.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/CustomerDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/CustomerDetails.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/utility/CartData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utility/CartData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/utility/Helper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utility/Helper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/utility/ProductData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utility/ProductData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/view/CartView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/view/CartView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/view/CheckOutView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/view/CheckOutView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/view/HomePageView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/view/HomePageView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/view/PaymentView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/view/PaymentView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/view/ProductsView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/view/ProductsView.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +35,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
@@ -123,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660894131304</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated code files">
+      <created>1661091521149</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661091521149</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

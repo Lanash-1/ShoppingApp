@@ -1,9 +1,6 @@
 package controller
 
-import discount.ElectronicsDiscount
-import discount.FashionDiscount
-import discount.GroceryDiscount
-import discount.ToysDiscount
+import discount.*
 import enums.Category
 import interfaces.CartDataServices
 import model.Cart
@@ -46,22 +43,22 @@ class CartController: CartDataServices {
     private fun applyDiscount(product: Product): Product{
         when(product.category){
             Category.ELECTRONICS -> {
-                val electronicsDiscount = ElectronicsDiscount()
+                val electronicsDiscount: ProductsDiscount = ElectronicsDiscount()
                 product.productPrice = electronicsDiscount.applyDiscount(product.productPrice)
                 return product
             }
             Category.FASHION -> {
-                val fashionDiscount = FashionDiscount()
+                val fashionDiscount: ProductsDiscount = FashionDiscount()
                 product.productPrice = fashionDiscount.applyDiscount(product.productPrice)
                 return product
             }
             Category.TOYS -> {
-                val toysDiscount = ToysDiscount()
+                val toysDiscount: ProductsDiscount = ToysDiscount()
                 product.productPrice = toysDiscount.applyDiscount(product.productPrice)
                 return product
             }
             Category.GROCERY -> {
-                val groceryDiscount = GroceryDiscount()
+                val groceryDiscount: ProductsDiscount = GroceryDiscount()
                 product.productPrice = groceryDiscount.applyDiscount(product.productPrice)
                 return product
             }
