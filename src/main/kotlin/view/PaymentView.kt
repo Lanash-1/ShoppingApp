@@ -106,18 +106,17 @@ class PaymentView {
     }
 
     private fun cardOperations(entry: CardOptions, totalBillAmount: Int) {
-        when(entry){
+        val card = when(entry){
             CardOptions.DEBIT_CARD -> {
-                val card = DebitCard()
-                val cardTransaction = CardTransaction(card)
-                cardTransaction.processTransaction(totalBillAmount)
+                DebitCard()
             }
             CardOptions.CREDIT_CARD -> {
-                val card = CreditCard()
-                val cardTransaction = CardTransaction(card)
-                cardTransaction.processTransaction(totalBillAmount)
+                CreditCard()
             }
         }
+        val cardTransaction = CardTransaction(card)
+        val transaction = Transaction(cardTransaction)
+        transaction.performTransaction(totalBillAmount)
     }
 
     private fun upiOptions(totalBillAmount: Int) {
@@ -143,17 +142,16 @@ class PaymentView {
     }
 
     private fun upiOperations(entry: UpiOptions, totalBillAmount: Int) {
-        when(entry){
+        val upi = when(entry){
             UpiOptions.GPAY -> {
-                val gpay = Gpay()
-                val upiTransaction = UpiTransaction(gpay)
-                upiTransaction.processTransaction(totalBillAmount)
+                Gpay()
             }
             UpiOptions.PAYTM -> {
-                val paytm = Paytm()
-                val upiTransaction = UpiTransaction(paytm)
-                upiTransaction.processTransaction(totalBillAmount)
+                Paytm()
             }
         }
+        val upiTransaction = UpiTransaction(upi)
+        val transaction = Transaction(upiTransaction)
+        transaction.performTransaction(totalBillAmount)
     }
 }
